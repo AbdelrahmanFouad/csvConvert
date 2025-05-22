@@ -1,9 +1,10 @@
 import streamlit as st
+st.set_page_config(layout="wide")
 import pandas as pd
 import chardet
 from io import BytesIO
 import os 
-st.set_page_config(layout="wide")
+
 os.environ["STREAMLIT_SERVER_MAX_UPLOAD_SIZE"] = "1024"
 st.set_page_config(page_title="CSV UTF-8 Converter", layout="centered")
 
