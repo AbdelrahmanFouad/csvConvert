@@ -5,9 +5,8 @@ from io import BytesIO
 import os 
 
 os.environ["STREAMLIT_SERVER_MAX_UPLOAD_SIZE"] = "1024"
-st.set_page_config(layout="wide")
-st.set_page_config(page_title="CSV UTF-8 Converter", layout="centered")
 
+st.set_page_config(page_title="CSV UTF-8 Converter", layout="wide")
 st.title("📁 CSV to UTF-8 (with BOM) Converter")
 st.markdown("Ensure Arabic content displays correctly in Excel by converting CSVs to UTF-8 with BOM.")
 
